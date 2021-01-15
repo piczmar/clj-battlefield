@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# this starts kaocha with test suite :unit
+clojure -A:test -M :unit --config-file test/tests.edn "$@"
